@@ -7,6 +7,3 @@ for file in $c_files; do
 done
 
 gcc -shared -o liball.so *.o
-
-rm -f *.o
-
