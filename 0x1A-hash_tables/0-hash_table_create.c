@@ -6,6 +6,7 @@
  *
  * Return: A pointer to the newly created hash table, or NULL if allocation fails.
  */
+
 hash_table_t *create_hash_table(unsigned long int size)
 {
     unsigned int i = 0;
