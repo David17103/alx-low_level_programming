@@ -1,13 +1,13 @@
 #include "hash_tables.h"
 
 /**
- * create_hash_table - Initializes and allocates memory for a new hash table.
+ * hash_table_create - Initializes and allocates memory for a new hash table.
  * @size: The desired size of the new hash table.
  *
  * Return: A pointer to the newly created hash table, or NULL if allocation fails.
  */
 
-hash_table_t *create_hash_table(unsigned long int size)
+hash_table_t *hash_table_create(unsigned long int size);
 {
     unsigned int i = 0;
     hash_table_t *ht = malloc(sizeof(hash_table_t));
